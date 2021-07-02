@@ -1,0 +1,27 @@
+*{margin: 0; padding: 0;} 
+li{
+    list-style: none;
+}
+.nav-link{
+    padding: 0 10px;
+}
+.menutop img{
+    width: 40px;
+    border-radius: 50%;
+    height: 41px;
+    margin-top: 10px;
+}
+@media(max-width:576px){
+    *{}
+    .menutop img{
+        width: 40px;
+        border-radius: 50%;
+        height: 41px;
+        margin-top: 10px;
+        margin-left: 133px;
+    }
+    .menutop .navbar-nav .nav-item {
+        float: left;
+        margin: 0 -2px;
+    }
+}
