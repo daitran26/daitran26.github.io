@@ -1,4 +1,8 @@
 *{margin: 0; padding: 0;} 
+body, html{
+    width: 100%;
+    height: 100%;
+}
 li{
     list-style: none;
 }
@@ -6,22 +10,140 @@ li{
     padding: 0 10px;
 }
 .menutop img{
-    width: 40px;
+    width: 63px;
     border-radius: 50%;
-    height: 41px;
-    margin-top: 10px;
+    height: 60px;
 }
+.fa {
+    font-size: 20px;
+    margin: 10px;
+}
+.khott1 {
+    background: #e9585f;
+    width: 100%;
+    height: 100%;
+}
+.khott1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    background: #e4555b;
+    height: 100%;
+}
+.chuot.text-xs-center {
+    position: absolute;
+    left: 50%;
+    width: 36px;
+    margin-left: -18px;
+    z-index: 2;
+    border: 2px solid white;
+    border-radius: 36%;
+    height: 58px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.chuot.text-xs-center:hover {
+    margin-top: 30px;
+}
+.chuot.text-xs-center:before {
+    position: absolute;
+    z-index: 3;
+    width: 3px;
+    height: 15px;
+    color: white;
+    content: "";
+    top: 10px;
+    left: 15px;
+    background: white;
+    animation: 0.4s;
+}
+.khott1 .container.text-xs-center {
+    position: relative;
+    z-index: 2;
+}.khott1 img {
+    border: 2px solid black;
+    z-index: 2;
+    border-radius: 50%;
+    width: 216px;
+    margin-top: 17%;
+    height: 201px;
+}
+.tieudeto h1 {
+    margin: 70px 0;
+    color: saddlebrown;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.khott1 h2 {
+    font-size: 39px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+}
+.khott1 p {
+    font-size: 36px;
+    font-family: segoe ui;
+    color: chartreuse;
+    padding: 10px;
+}
+a.nuthire.btn.btn-primary {
+    background: black;
+    border: 1px solid white;
+}
+span.mota {
+    font-size: 15px;
+    color: #00000078;
+}
+
+.khoinho h3.tieudecap3 {
+    font-size: 16px;
+    color: #e35855;
+    margin-bottom: 20px;
+}
+
+.khoinho {
+    margin-bottom: 55px;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-bottom: 40px;
+} 
 @media(max-width:576px){
     *{}
-    .menutop img{
-        width: 40px;
-        border-radius: 50%;
-        height: 41px;
-        margin-top: 10px;
-        margin-left: 133px;
+    a.nuthire.btn.btn-primary {
+        font-size: 10px;
     }
-    .menutop .navbar-nav .nav-item {
-        float: left;
-        margin: 0 -2px;
+    
+    .khott1 img {
+        margin-top: 54%;
     }
+    
+    .khott1 h2 {
+        font-size: 20px;
+        margin-top: 14px;
+    }
+    .chuot.text-xs-center {
+        transform: scale(0.7);
+    }
+    .khott1 p {
+        font-size: 15px;
+    }
+        .menutop img{
+            width: 40px;
+            border-radius: 50%;
+            height: 41px;
+            margin-top: 10px;
+            margin-left: 133px;
+        }
+        .menutop .navbar-nav .nav-item {
+            float: left;
+            margin: 0 -4px;
+        }
 }
