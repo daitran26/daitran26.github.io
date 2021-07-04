@@ -1,0 +1,546 @@
+*{margin: 0; padding: 0;} 
+li{
+    list-style: none;
+}
+.menuto li.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: segoe ui;
+    padding: 0 2px;
+    transition: 6s;
+}
+.menuto li.nav-item a.nav-link {
+    color: white;
+}
+.menuto li.nav-item a.nav-link:hover {
+    color: #E91E63;
+}
+nav.navbar.navbar-expand-sm.navbar-dark.bg-primary.navbar-fixed-top {
+    background: #1E1E25!important;
+    height: 80px!important;
+    padding-top: 0px;
+}
+.menuto img {
+    margin-top: 21px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.home ,.about,.skills,.hoctap,.bosuutap,.pricing,.blog,.contact444{
+    width: 100%;
+    height: 100%;
+    background: #100E17;
+    margin-top: 80px;
+}
+.infor{
+    color: white;
+    padding-top: 35%;
+}
+.infor .hello {
+    width: 125px;
+    height: 38px;
+    background: #E91E63;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+}
+.home .name {
+    font-size: 60px;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: ui-sans-serif;
+    color: #E8E7E8;
+}
+.home h4.thongtin {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    font-family: segoe ui;
+    font-weight: 700;
+    color: #E8E7E8;
+}
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+    padding: 0px;
+    background-color: transparent;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    color: rgb(235, 235, 235);
+    opacity: 0.9;
+}
+a:hover{
+    color: rgb(224, 223, 223);
+}
+.contact li{
+    list-style: none;
+    margin: 10px 0;
+}
+ul li .fa {
+    margin-right: 15px;
+    display: inline-block;
+    transition: 0.5s;
+}
+li:hover .fa{
+    color: #E91E63;
+}
+.contact1 a{
+    font-size: 25px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-right: 0;
+    border-radius: 50%;
+}
+.contact1 li{
+    display: inline-block;
+    margin: 10px 0;
+}
+.contact1 .fa{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 4px 14px;
+    margin-right: 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.contact1 li:hover .fa{
+    background-color: #E8E7E8;
+}
+.row .anh {
+    text-align: center;
+}
+.anh img {
+    border-radius: 50%;
+    width: 65%;
+    margin-top: 35%;
+    box-shadow: 0px -1px 4px 24px rgb(59 59 59 / 78%);
+}
+.about{
+    margin-top: 0;
+    padding-top:60px;
+    color: #E8E7E8!important;
+    height: 115%;
+}
+.ttabout{
+    padding-left: 50px;
+}
+.ttabout h2 {
+    margin: 20px 0;
+    font-family: segoe ui;
+    font-weight: 600;
+}
+.ttabout p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-family: segoe ui light;
+    font-weight: 600;
+}
+ul.laguage li {
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    display: inline-block;
+    border: 1px solid #E91E63;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.4s;
+    margin-right: 15px;
+}
+ul.laguage li:hover{
+    background-color: #E8E7E8;
+    color: #E91E63;
+}
+.ttabout a.nut.btn-primary {
+    margin-top: 20px!important;
+    display: inline-block;
+    padding: 12px 34px;
+    background: #E91E63;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.whatido{
+    padding: 60px 0;
+    padding-top: 100px;
+}
+.tieudeto h2 {
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.whatido .fa {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+.whatido .cot {
+    -webkit-box-shadow: -1rem 0 3rem #000;
+    background-color: #202026;
+    padding: 20px;
+    margin: 0 15px;
+    box-sizing: border-box!important;
+    border-radius: 5px;
+    position: relative;
+    max-width: 30.33%;
+}
+.cot p {
+    font-size: 15px;
+}
+.cot h3 {
+    margin-bottom: 18px;
+    font-size: 25px;
+    line-height: 34px;
+}
+.skills{
+    margin-top: 0;
+    padding: 100px;  
+    color: #E8E7E8;
+}
+.skills .tieudeto{
+    font-size: 30px;
+    line-height: 40px;
+    font-family: segoe ui;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.kinang{
+    padding-right: 60px;
+}
+.motskill {
+    position: relative;
+    margin-bottom: 55px;
+}  
+.motskill .ten {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-family: cursive;
+} 
+.motskill .phantram {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.9;
+} 
+.kinang .hienthi {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(199, 198, 198, 0.6);
+    top: 33px;
+}
+.kinang .hienthi:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #E91E63;
+    -webkit-transition: 3s all;
+    -webkit-animation-duration: 3s;
+    width: 86%;
+}
+.kinang .a:before{
+    width: 66%;
+}
+.kinang .b:before{
+    width: 56%;
+}
+.kinang .c:before{
+    width: 48%;
+}
+.kinang .d:before{
+    width: 90%;
+}
+.ok{
+    stroke: #E91E63;
+}
+.hinhtron{
+    padding-left: 20%;
+}
+.hinhtron ul li{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px 51px 25px;
+    position: relative;
+}
+.hinhtron .phantram {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+}
+.hinhtron .ten {
+    font-size: 17px;
+    position: absolute;
+    font-family: cursive;
+    left: 0px;
+    top: 100%;
+}
+svg{
+    margin-bottom: 10px;
+}
+.hoctap{
+    margin-top: -70px;
+    color: #E8E7E8;
+    height: 130%;
+}
+.noidung .tieudeto {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.tong .motphan{
+    margin-bottom: 30px;
+    padding: 26px 30px;
+    border-radius: 4px;
+    background-color: #202026;
+}
+.noidung{
+    padding-right: 30px;
+}
+.motphan h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: "roboto", sans-serif;
+}
+.motphan a{
+        text-decoration: none !important;
+        cursor: pointer;
+        padding: 0px;
+        background-color: transparent;
+        -webkit-transition: color 0.3s ease;
+        transition: color 0.3s ease;
+        color: #E91E63;
+        opacity: 0.9;
+        font-style: italic;
+}
+.nam{
+    color: #E91E63;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.motphan p{
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+.noidung.abc {
+    padding-right: 0px;
+    padding-left: 30px;
+}
+.bosuutap{
+    margin-top: 0;
+    padding-top: 120px;
+    color: #E8E7E8;
+}
+.col-sm-4.anh4 img {
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.5s;
+    position: relative;
+}
+.col-sm-4.anh4{
+   position: relative;
+    transition: 0.5s;
+}
+.bosuutap .text1 {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    top: 35%;
+    left: -20%;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.bosuutap .anh4:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #E91E63;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 87%;
+    height: 94%;
+    margin-left: 25px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.bosuutap .anh4:hover .text1{
+    opacity: 1!important;
+    visibility: visible!important;
+    z-index: 3;
+    left: 0;
+}
+.bosuutap .anh4:hover:before{
+    opacity: 0.9!important;
+    visibility: visible!important;
+    z-index: 2!important;
+}
+.bosuutap .anh4.anh2:before{
+    height: 63%;
+}
+.text1.text2{
+    top: 18%;
+}
+.pricing{
+    margin-top: 0;
+    color: #E8E7E8;
+    padding-bottom: 60px;
+}
+.pricing .motphan {
+    padding: 30px 0;
+    box-shadow: -1rem 0 3rem #000;
+    background: #202026;
+    border-radius: 5px;
+}
+.pricing .fa {
+    color: #E91E62;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.motphan h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: "roboto", sans-serif;
+}
+.motphan p{
+    opacity: 0.9;
+    margin-top: 0;
+}
+.motphan h5{
+    font-size: 36px;
+    line-height: 40px;
+    color: #E91E62;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.motphan ul {
+    margin: 30px 0;
+}
+.motphan ul li {
+    margin: 3px 0;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.motphan .nut.btn.btn-primary {
+    background: #E91E63;
+    font-weight: 700;
+    padding: 12px 26px;
+    border-radius: 18px;
+    color: #E8E7E8;
+    opacity: 0.9;
+}
+.blog{
+    margin-top: 0;
+    color: #E8E7E8;
+}
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.blog .thongtin {
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    background: #202026;
+}
+.thongtin h2 {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+.blog .tieudeto{
+    padding-bottom: 60px;
+}
+.contact444{
+    margin-top: 0;
+    color: #E8E7E8;
+    padding: 60px 0;
+    background-image: url(img/logo10.png);
+    background-color: #100E17;
+    height: 120%;
+}
+.contact444 .motphan {
+    background: #202026;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: -1rem 0 3rem #000;
+}
+.contact444 h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.contact444 i.fa {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #E91E63;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 20px;
+}
+.contact444 .infor h3 {
+    display: block;
+    font-weight: 600;
+    margin-top: -85px;
+    margin-bottom: 24px;
+}
+input#name ,input#L_name,input#email,textarea#message{
+    border: 1px solid white;
+    background: transparent;
+    margin-bottom: 13px;
+    padding: 10px;
+}
+textarea#message{
+    width: 100%;
+    overflow: auto;
+}
+button#form-submit {
+    background: #E91E63;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.9;
+    font-weight: 600;
+    cursor: pointer;
+}
+.active{
+    border-bottom: 2px solid rgb(56, 178, 226);
+}
