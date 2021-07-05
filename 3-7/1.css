@@ -544,3 +544,42 @@ button#form-submit {
 .active{
     border-bottom: 2px solid rgb(56, 178, 226);
 }
+@media(max-width:576px){
+    *{}
+    .menuto a.navbar-brand {
+        margin-left: 37%;
+    }
+    .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right li {
+        font-size: 8px;
+    }
+    .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
+        width: 119%;
+        background: rgb(59, 55, 55);
+        text-align: center;
+        margin-right: -30px;
+        box-sizing: border-box;
+    }
+    .home .infor {
+        transform: scale(0.7);
+        margin-top: -120px;
+    }
+    .infor .name {
+        font-size: 50px;
+        font-family: revert;
+    }
+    .home .anh {
+        width: 222px;
+        margin-left: 16%;
+        margin-top: -35%;
+    }
+    div#so1 {
+        margin-top: -47%;
+    }
+    div#so2 {
+        padding-top: 300%;
+    }
+    .whatido .cot {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
