@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
     var color  = document.querySelector('#color');
-    var mau = ['red','blue','green','#cc6a24','#5525f8','grey']
+    var mau = ['red','blue','green','#cc6a24','#5525f8','#100e17']
     var teee1 = function teee(){
         var html = ''
         for(var i = 0; i< 6; i++){
@@ -63,6 +63,9 @@ document.addEventListener("DOMContentLoaded", function(){
     const setting = document.querySelector('.icon');
     setting.onclick = function(){
         document.querySelector('.setting').classList.toggle('setting1');
+    }
+    document.querySelector('.nuthome').onclick = function(){
+        document.querySelector('.menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right').classList.toggle('mora');
     }
 },false)
  

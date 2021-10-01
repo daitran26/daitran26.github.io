@@ -601,7 +601,9 @@ button#form-submit {
         margin-left: 37%;
     }
     .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right li {
-        font-size: 8px;
+        font-size: 14px;
+        margin-left: -11px!important;
+        transition: 0.4s;
     }
     .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
         width: 119%;
@@ -687,7 +689,7 @@ button#form-submit {
     }
     div#so4 {
         /* padding-top: 26%!important; */
-        margin-top: -315%!important;
+        margin-top: -333%!important;
     }
     #color li.color-item {
         width: 32px;
@@ -718,11 +720,34 @@ button#form-submit {
         top: -3%;
     }
     .setting {
-        margin-right: -39%;
+        margin-right: -38%;
         margin-top: 4%;
     }
     .setting1 {
         margin-right: -20%;
         margin-top: 4%;
+    }
+    .blog .motphan {
+        margin-bottom: 10px;
+    }
+    .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
+        width: 97px;
+        background: rgb(59, 55, 55);
+        display: grid;
+        overflow: hidden;
+        height: 34px;
+        position: relative;
+        left: -88%;
+        top: 64px;
+        border-radius: 10px;
+    }
+    li.nav-item:first-child {
+        margin-left: 18px;
+    }
+    li.nav-item:hover {
+        background: aqua;
+    }
+    .mora{
+        overflow: visible!important;
     }
 }

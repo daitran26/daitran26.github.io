@@ -146,6 +146,12 @@ h2.tieudecap2 {
             float: left;
             margin: 0 -4px;
         }
+        ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
+            display: -webkit-inline-box;
+            font-size: 15px;
+            font-family: ui-monospace;
+        }
+        
 }
 li.line {
     position: absolute;
