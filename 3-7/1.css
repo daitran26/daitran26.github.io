@@ -557,6 +557,7 @@ button#form-submit {
         background: rgb(59, 55, 55);
         text-align: center;
         margin-right: -30px;
+        padding-left: 8px;
         box-sizing: border-box;
     }
     .home .infor {
@@ -626,5 +627,15 @@ button#form-submit {
     div#so7 {
         padding-top: 461%;
         height: 512%;
+    }
+    div#so3 {
+        /* height: 391%; */
+        margin-top: -11px;
+        height: 415%;
+        /* padding-bottom: 84%; */
+    }
+    div#so4 {
+        /* padding-top: 26%!important; */
+        margin-top: -315%!important;
     }
 }

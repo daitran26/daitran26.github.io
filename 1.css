@@ -147,3 +147,16 @@ h2.tieudecap2 {
             margin: 0 -4px;
         }
 }
+li.line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background: red;
+    border-radius: 47px;
+    transition: all 0.4s ease-in;
+}
+ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
+    position: relative;
+}
