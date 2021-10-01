@@ -37,5 +37,32 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         }
     }
+    var color  = document.querySelector('#color');
+    var mau = ['red','blue','green','#cc6a24','#5525f8','grey']
+    var teee1 = function teee(){
+        var html = ''
+        for(var i = 0; i< 6; i++){
+            html += `<li class = "color-item" style = "background-color: ${mau[i]}" ></li>`
+    }
+    return html;
+    }
+    color.innerHTML = teee1()
+
+
+    const setColor = document.querySelectorAll('.color-item')
+    setColor.forEach((color,index)=>{
+        color.onclick =function(){
+            var body1  =document.querySelectorAll('.home, .about, .skills, .hoctap, .bosuutap, .pricing, .blog, .contact444');
+            console.log(body1)
+            body1.forEach((body,index)=>{
+                body.style.backgroundColor = `${color.style.backgroundColor}` ;
+            })
+        }
+    })
+
+    const setting = document.querySelector('.icon');
+    setting.onclick = function(){
+        document.querySelector('.setting').classList.toggle('setting1');
+    }
 },false)
  
