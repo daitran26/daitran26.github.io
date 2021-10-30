@@ -34,6 +34,19 @@ html,body{
     background: #100E17;
     margin-top: 80px;
 }
+ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right.menu{
+    animation : dichuyen ease .5s .5s forwards;
+}
+@keyframes dichuyen {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 .infor{
     color: white;
     padding-top: 35%;
@@ -788,149 +801,4 @@ button#form-submit {
     .blog .motphan {
         margin: 10px;
     }
-    /* .menuto a.navbar-brand {
-        margin-left: 37%;
-    }
-    .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right li {
-        font-size: 14px;
-        margin-left: -11px!important;
-        transition: 0.4s;
-    }
-    .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
-        width: 119%;
-        background: rgb(59, 55, 55);
-        text-align: center;
-        margin-right: -30px;
-        padding-left: 8px;
-        box-sizing: border-box;
-    }
-    .home .infor {
-        transform: scale(0.7);
-        margin-top: -120px;
-    }
-    .infor .name {
-        font-size: 50px;
-        font-family: revert;
-    }
-    .home .anh {
-        width: 222px;
-        margin-left: 16%;
-        margin-top: -35%;
-    }
-    div#so1 {
-        margin-top: -47%;
-    }
-    div#so2,#so3,#so4,#so5 {
-        padding-top: 300%;
-    }
-    .whatido .cot {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-    .skills .kinang {
-        padding: 0;
-        display: block;
-        width: 155%;
-        margin-left: -40px;
-        margin-top: -140%;
-        transform: scale(0.9);
-    }
-    .motskill {
-        margin-bottom: 37px;
-    }
-    .hinhtron {
-        padding: 0;
-        transform: scale(0.9);
-        width: 267%;
-        display: block;
-        margin-left: -82%;
-    }
-    .noidung {
-        margin-top: -192%;
-        transform: scale(0.9);
-        width: 109%;
-    }
-    .noidung.abc {
-        padding-left: 0;
-        margin-top: -109px; 
-        width: 100%;
-        text-align: center;
-    }
-    div#so4 {
-        margin-top: 107%;
-    }
-    div#so5 {
-        margin-top: -111px;
-    }
-    .pricing .motphan {
-        margin-bottom: 30px;
-    }
-    div#so6,#so7 {
-        padding-top: 393%;
-    }
-    div#so7 {
-        padding-top: 461%;
-        height: 512%;
-    }
-    div#so3 {
-        
-        margin-top: -11px;
-        height: 415%;
-        
-    }
-    div#so4 {
-        margin-top: -333%!important;
-    }
-    #color li.color-item {
-        width: 32px;
-        height: 26px;
-        padding: 0;
-    }
-    .mau {
-        background: none;
-        flex-wrap: wrap;
-        width: 122px;
-        margin-right: 75px;
-        background: #e2d1d1;
-    }
-    .mau h2 {
-        text-indent: -9999px;
-    }
-    .icon {
-        transform: scale(0.7);
-        position: absolute;
-        right: 190px;
-        top: -3%;
-    }
-    .setting {
-        margin-right: -38%;
-        margin-top: 4%;
-    }
-    .setting1 {
-        margin-right: -20%;
-        margin-top: 4%;
-    }
-    .blog .motphan {
-        margin-bottom: 10px;
-    }
-    .menuto ul.navbar-nav.mr-auto.mt-1.mt-lg-1.float-xs-right {
-        width: 97px;
-        background: rgb(59, 55, 55);
-        display: grid;
-        overflow: hidden;
-        height: 34px;
-        position: relative;
-        left: -88%;
-        top: 64px;
-        border-radius: 10px;
-    }
-    li.nav-item:first-child {
-        margin-left: 18px;
-    }
-    li.nav-item:hover {
-        background: aqua;
-    }
-    .mora{
-        overflow: visible!important;
-    } */
 }
